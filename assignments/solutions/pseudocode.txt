@@ -1,0 +1,23 @@
+1.
+
+Start
+input year (a number)
+if n%4==0 and n%100!=0:
+	output "Leap Year"
+	exit
+if n%400==0 and n%100==0:
+	output "Leap Year"
+	exit
+end if
+output "Not Leap Year"
+
+PYTHON CODE
+n = int(input("enter a year"))
+if n % 4 == 0 and n % 100 != 0:
+  print("LEAP YEAR")
+elif n % 100 == 0 and n % 400 == 0:
+  print("LEAP CENTURY YEAR")
+else:
+  print("NOT LEAP YEAR")
+
+
