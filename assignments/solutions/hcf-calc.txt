@@ -1,0 +1,13 @@
+number1 = int(input("enter first number"))
+number2 = int(input("enter second number"))
+if number1 > number2:
+	counter = int(number2)
+else:
+	counter = int(number1)
+while counter <= number1 and counter <= number2:
+  x = number1 % counter
+  y = number2 % counter
+  if x == 0 and y == 0:
+    print(counter)
+    break
+  counter -= 1
