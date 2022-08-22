@@ -1,0 +1,5 @@
+n = int(input("enter a number"))
+x = range(1, 13)
+for i in x:
+  y = str(n * i)
+  print(n,"*",i,"=",y)
