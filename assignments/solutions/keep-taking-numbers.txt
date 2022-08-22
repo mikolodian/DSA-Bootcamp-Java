@@ -1,0 +1,10 @@
+counter = 0
+number = input("enter a number")
+invalid = "x"
+while number != "x":
+  counter += int(number)
+  number = input("enter a number")
+  if number == "x":
+    break
+
+print(counter)
